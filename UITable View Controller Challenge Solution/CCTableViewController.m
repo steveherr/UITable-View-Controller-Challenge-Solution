@@ -75,7 +75,7 @@
     if (indexPath.section == 0) {
         cell.textLabel.text = @"I am in section 0";
     }
-    else if (indexPath == 1) {
+    else if (indexPath.section == 1) {
         cell.textLabel.text = @"another section";
     }
     else {
